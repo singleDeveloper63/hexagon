@@ -467,7 +467,8 @@ section{
 }
 
 .contact .contact-list ul a{
+    display: block;
     color:rgb(83, 57, 0)  !important;
-    margin: 0px 15px;
+    padding: 10px 15px !important;
     text-decoration: none !important;
 }
