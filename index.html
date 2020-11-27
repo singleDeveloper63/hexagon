@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexagon frontend oqiw kursi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/logo.svg" type="image/svg">
+    <link rel="stylesheet" href="./assets/fontawesome-pro-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./assets/logo.svg" alt="hexagon"> HEXAGON</a>
+        <div class="navigation">
+            <a onclick="toggle()" href="#about">Kurs haqqinda</a>
+            <a onclick="toggle()" href="#list">Nelerdi u'yrenemen ?</a>
+            <a onclick="toggle()" href="#enroll">Jaziliw</a>
+            <a onclick="toggle()" href="#address">Baylanis</a>
+        </div>
+        <button onclick="toggle()" class="nav-toggler"> <i class="fal fa-bars"></i> </button>
+    </header>
+    <div class="landing">
+        <div class="quote">
+            <h1>Qaraqalpaqstan Respublikasi IT Orayindag'i <span>"HEXAGON"</span> oqiw kursi sizdi Front-end web development kurslarina mirat etedi !</h1>
+            <p>Xabar texnologiyalari zamaninda en' talapker ka'sip - da'stu'rlewdi biz benen birge iyelen' !</p>
+        </div>
+        <img src="./assets/workAnywhere.png" alt="Working from anywhere you want">
+        <a href="#about" class="down"> <i class="fal fa-chevron-down"></i> </a>
+    </div>
+    <div class="about" id="about">
+        <div class="image">
+            <img src="./assets/frontend.png" alt="frontned">
+        </div>
+        <div class="course">
+            <h1>Kurslarimiz haqqinda</h1>
+            <p>
+                Kurslarimizda siz 6 ay dawaminda <span>Frontend</span>
+                web programmalastiriwdi toliq ha'm sapali o'zlestirip shig'asiz.
+                Sizge en' aqirg'i ha'm zamanago'y texnologiyalar , ha'r bir programmist biliwi kerek bolg'an bilimler ,
+                komandada islewde qollaniliwshi a'sbaplar ( Git ha'm GitHub ) , trenddegi programmalastiriw tili u'yretiledi .
+                Tek g'ana teoriya emes , ha'r ku'ngi u'yrengen bilimlerin'izdi a'melde de qollap barasiz . 
+                Sonday-aq kurs dawaminda siz keminde 2 real proekt islep shig'asiz . Bul degeni <span>erten' portfolin'izda 2 proekt boladi</span>
+                degen so'z . Kurslariniz juwmag'inda jaqsi o'zlestirgen oqiwshilar o'z firmamizg'a ( qa'lewi boyinsha ) jumisqa qabillanip , 
+                joqari da'ramatli ayliqqa erisedi . Yamasa Qaraqalpaqstanda ashiliwina tez ku'nler qalg'an IT Parkta islep qollaniliw
+                imkaniyatina iye boladi . Basqa pitiriwshiler de o'z qa'lewi boyinsha stajirovka o'tewi , ha'm jumis islewi mu'mkin .
+            </p>
+        </div>
+    </div>
+    <div class="list" id="list">
+        <div class="inner">
+            <h1>Sizge neler u'yretiledi ?</h1>
+            <div class="list-items">
+                <div class="item">
+                    <h1 class="html">
+                        <i class="fab fa-html5"></i> HTML
+                    </h1>
+                    <p>
+                        HTML - (Hypertext markup language) ha'r qanday veb sayttin' en' tiykarg'i
+                        bo'legi bolip , onda barliq veb saytlardin' qa'lipleri jaratiladi dewge boladi .
+                    </p>
+                    <a href="https://uz.wikipedia.org/wiki/HTML" target="_blank"></a>
+                </div>
+                <div class="item">
+                    <h1 class="css">
+                        <i class="fab fa-css3-alt"></i> CSS
+                    </h1>
+                    <p>
+                        CSS - (Cascading style sheet) veb saytlardin' stilleri , ren'leri , ha'r qiyli animaciyalar
+                        ha'm effektler , transformaciyalar ha'm basqa da ko'plegen elementlerge suliwliq beriw ushin qollaniladi .
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"></a>
+                </div>
+                <div class="item">
+                    <h1 class="sass">
+                        <i class="fab fa-sass"></i> SASS
+                    </h1>
+                    <p>
+                        SASS - (Syntactically awesome style sheets) bul CSS preprocessori bolip,
+                        onda CSS arqali stil beriledi . Biraq ayirmashilig'i sintaktik jaqtan qolaylig'inda .
+                        Ol CSS te stil jaziwdi an'sat ha'm a'piwayilastiradi .
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank"></a>
+                </div>
+                <div class="item">
+                    <h1 class="bs">
+                        <i class="fab fa-bootstrap"></i> Bootstrap 5
+                    </h1>
+                    <p>
+                        Bootstrap - ko'plegen qolayliqlarg'a iye HTML ha'm CSS kitapxanasi . Ol arqali
+                        saytlarimizdag'i kartochkalar , knopkalar , formalar ha'm ko'plegen basqa elementler an'sat jaratiladi .
+                    </p>
+                    <a href="https://v5.getbootstrap.com/" target="_blank"></a>
+                </div>
+                <div class="item">
+                    <h1 class="js">
+                        <i class="fab fa-js"></i> JavaScript
+                    </h1>
+                    <p>
+                        JavaScript - bul ha'zirgi da'wirdegi en' taniqli ha'm ko'pler paydalanatug'in programmalastiriw tili .
+                        JavaScript arqali siz veb saytlar jaratiw menen birgelikte , kompyuterler ha'm mobil qurilmalarg'a programma du'zesiz , sonday-aq
+                        ha'tteki robotlarg'a da programma jaza alasiz .
+                    </p>
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+                <div class="item">
+                    <h1 class="git">
+                        <i class="fab fa-git-alt"></i> Git ha'm GitHub
+                    </h1>
+                    <p>
+                        Git ha'm GitHub - arqali siz bir proekt u'stinde bir neshe programmist bolip birgelikte islewin'iz mu'mkin . 
+                        Sonday aq kodlarin'izdi global ta'rizde ja'riyalawdi qa'lesen'iz de GitHub sizge u'lken ja'rdem beredi .
+                    </p>
+                    <a href="https://ru.wikipedia.org/wiki/Git" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+                <div class="item">
+                    <h1 class="node">
+                        <i class="fab fa-node"></i> NodeJS
+                    </h1>
+                    <p>
+                        NodeJS - bolsa JavaScriptti brauzerden sirtqi ta'repte isletip beriwshi ortaliq bolip , Chrome brauzerinin' V8 dvijogin
+                        C++ tiline qoyiw arqali islengen . NodeJS JavaScripttin' imkaniyatlarin min'lap ese asirdi desek asira aytqan bolmaymiz .
+                    </p>
+                    <a href="https://ru.wikipedia.org/wiki/Node.js" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+                <div class="item">
+                    <h1 class="react">
+                        <i class="fab fa-react"></i> React
+                    </h1>
+                    <p>
+                        React - bul Facebook kompaniyasi ta'repinen jaratilg'an ha'm qollap quwatlanatug'in JavaScript kitapxanasi bolip , 
+                        paydalaniwshi interfeysin jaratiwda qollaniladi . Ha'zirde ha'r qanday frontend programmist React , Angular yamasa VueJSti biliwi
+                        talap etiledi . Frontend kursimizdin' en' tiykarg'i logikasi da usi Reactqa qaratilg'an boladi . 
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/React_(web_framework)" target="_blank" rel="noopener noreferrer"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="enroll" id="enroll">
+        <div class="image">
+            <img src="./assets/coder.jpg" alt="">
+        </div>
+        <form method="POST" action="https://app.form2chat.io/f/6ee51037">
+            <h1>Kursqa jaziliw</h1>
+            <div class="fg">
+                <label for="name"> <i class="fal fa-user"></i> </label>
+                <input placeholder="Atin'iz" required type="text" name="Ati" id="name">
+            </div>
+            <div class="fg">
+                <label for="lname"> <i class="fal fa-user"></i> </label>
+                <input placeholder="Familiyan'iz" required type="text" name="Familiyasi" id="lname">
+            </div>
+            <div class="fg">
+                <label for="age"> <i class="fal fa-question"></i> </label>
+                <input placeholder="Jasin'iz" required type="number" name="Jasi" id="age">
+            </div>
+            <div class="fg">
+                <label for="phone"> <i class="fal fa-phone fa-flip-horizontal"></i> </label>
+                <input required type="tel" placeholder="Telefon nomerin'iz" name="Telefon" id="phone">
+            </div>
+            <button type="submit">Jaziliw</button>
+        </form>
+    </div>
+    <script>
+        function toggle(){
+            document.querySelector(".navigation").classList.toggle("visible")
+            document.body.classList.toggle("disableScroll");
+        }
+        window.addEventListener("scroll",()=>{
+            if(window.scrollY>120){
+                document.querySelector("header").classList.add("fixed")
+            }else{
+                document.querySelector("header").classList.remove("fixed")
+            }
+        })
+    </script>
+</body>
+</html>
