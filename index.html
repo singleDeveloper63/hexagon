@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hexagon frontend oqiw kursi</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./assets/logo.svg" type="image/svg">
+    <link rel="shortcut icon" href="./assets/logo.png">
     <link rel="stylesheet" href="./assets/fontawesome-pro-5.14.0-web/css/all.min.css">
     <link rel="stylesheet" href="responsive.css">
 </head>
@@ -16,7 +16,7 @@
             <a onclick="toggle()" href="#about">Kurs haqqinda</a>
             <a onclick="toggle()" href="#list">Nelerdi u'yrenemen ?</a>
             <a onclick="toggle()" href="#enroll">Jaziliw</a>
-            <a onclick="toggle()" href="#address">Baylanis</a>
+            <a onclick="toggle()" href="#contact">Baylanis</a>
         </div>
         <button onclick="toggle()" class="nav-toggler"> <i class="fal fa-bars"></i> </button>
     </header>
@@ -41,10 +41,15 @@
                 komandada islewde qollaniliwshi a'sbaplar ( Git ha'm GitHub ) , trenddegi programmalastiriw tili u'yretiledi .
                 Tek g'ana teoriya emes , ha'r ku'ngi u'yrengen bilimlerin'izdi a'melde de qollap barasiz . 
                 Sonday-aq kurs dawaminda siz keminde 2 real proekt islep shig'asiz . Bul degeni <span>erten' portfolin'izda 2 proekt boladi</span>
-                degen so'z . Kurslariniz juwmag'inda jaqsi o'zlestirgen oqiwshilar o'z firmamizg'a ( qa'lewi boyinsha ) jumisqa qabillanip , 
-                joqari da'ramatli ayliqqa erisedi . Yamasa Qaraqalpaqstanda ashiliwina tez ku'nler qalg'an IT Parkta islep qollaniliw
+                degen so'z . Kurslarimiz juwmag'inda jaqsi o'zlestirgen oqiwshilar o'z firmamizg'a ( qa'lewi boyinsha ) jumisqa qabillanip , 
+                joqari da'ramatli ayliqqa erisedi . Yamasa Qaraqalpaqstanda ashiliwina tez ku'nler qalg'an IT Parkta islep qaliw
                 imkaniyatina iye boladi . Basqa pitiriwshiler de o'z qa'lewi boyinsha stajirovka o'tewi , ha'm jumis islewi mu'mkin .
             </p>
+            <div class="pricing">
+                <h4><i class="fal fa-fw fa-sack-dollar"></i> Kursimiz bahasi : <span>300 000 sum (ayina)</span></h4>
+                <h4><i class="fal fa-fw fa-calendar"></i> Dawamlilig'i : <span>6 ay</span></h4>
+                <h4><i class="fal fa-fw fa-credit-card"></i> To'lemler : <span>Naq pul ha'm plastik kartalar arqali</span></h4>
+            </div>
         </div>
     </div>
     <div class="list" id="list">
@@ -78,7 +83,7 @@
                     <p>
                         SASS - (Syntactically awesome style sheets) bul CSS preprocessori bolip,
                         onda CSS arqali stil beriledi . Biraq ayirmashilig'i sintaktik jaqtan qolaylig'inda .
-                        Ol CSS te stil jaziwdi an'sat ha'm a'piwayilastiradi .
+                        Ol CSSte stil jaziwdi an'sat ha'm a'piwayilastiradi .
                     </p>
                     <a href="https://en.wikipedia.org/wiki/Sass_(stylesheet_language)" target="_blank"></a>
                 </div>
@@ -161,6 +166,18 @@
             </div>
             <button type="submit">Jaziliw</button>
         </form>
+    </div>
+    <div class="contact" id="contact">
+        <h1>Baylanis ushin</h1>
+        <div class="contact-list">
+            <ul>
+                <li><a href="tel:+998937720749"><i class="fa fa-phone fa-flip-horizontal"></i> +998 93 772-07-49</a></li>
+                <li><a href="tel:+998990359354"><i class="fa fa-phone fa-flip-horizontal"></i>  +998 99 035-93-54</a>  </li>
+                <li><a href="https://t.me/singledeveloper63" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram </a></li>
+                <li><a href="https://instagram.com/singledeveloper63" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://twitter.com/hexagon_front" target="_blank"><i class="fab fa-twitter"></i>   Twitter</a></li>
+            </ul>
+        </div>
     </div>
     <script>
         function toggle(){
